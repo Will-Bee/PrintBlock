@@ -6,7 +6,7 @@ def printBlock(unnamed_variable):
     Args:
         oneorzerolmao ([int]): [1 for BLOCKING print, else: UNBLOCKING print]
     """
-    if oneorzerolmao == 1:
+    if oneorzerolmao == True:
         sys.stdout = open(os.devnull, 'w')
         
     else:
@@ -17,9 +17,9 @@ def printBlock(unnamed_variable):
 ### examples
 
 print("okay")
-printBlock(1)
+printBlock(True)
 print("This is not printing")
 
 print("this is no printing too")
-printBlock(0)
+printBlock(False)
 print("This will print")
