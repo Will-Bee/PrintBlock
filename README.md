@@ -1,5 +1,5 @@
 # PrintBlock
-Enables and disables printing out in python
+##Enables and disables printing out in python
 
 Just copy-paste it to start of your code and enjoy!
 
