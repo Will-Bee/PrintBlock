@@ -9,11 +9,14 @@ Just copy-paste it to start of your code and enjoy!
 
 ```
 print("okay")
-printBlock(1)
-print("This is not printing")
 
-print("this is no printing too")
+printBlock(1)
+
+print("This is not printing")
+print("this is not printing too")
+
 printBlock(0)
+
 print("This will print")
 ```
 
