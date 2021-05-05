@@ -3,19 +3,19 @@
 
 Just copy-paste it to start of your code and enjoy!
 
-`printBlock(1)` to block all prints bellow
+`printBlock(True)` to block all prints bellow
 
-`printBlock(0)` to enable printing again
+`printBlock(False)` to enable printing again
 
 ```
 print("okay")
 
-printBlock(1)
+printBlock(True)
 
 print("This is not printing")
 print("this is not printing too")
 
-printBlock(0)
+printBlock(False)
 
 print("This is printing")
 ```
