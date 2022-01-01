@@ -1,12 +1,12 @@
 import os, sys
 
 
-def printBlock(oneorzerolmao):
+def printBlock(var):
     """
     Args:
-        oneorzerolmao ([int]): [1 for BLOCKING print, else: UNBLOCKING print]
+        var ([int]): [True for BLOCKING print, else: UNBLOCKING print]
     """
-    if oneorzerolmao == True:
+    if var == True:
         sys.stdout = open(os.devnull, 'w')
 
     else:
